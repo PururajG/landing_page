@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,700;1,700&family=Crete+Round&family=Tinos:wght@700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: serif;
+    overflow-x: hidden;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+/*---------------------- custome classes made by me ----------------------*/
+.button-color {
+    background: linear-gradient(to right, rgba(233, 195, 44, 0.93) 0, #1bb0eb 100%) !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+    /* border-radius: 50px; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+
+}
+
+
+/* ------------------------------------------- Header section start ---------------------------------------- */
+.header {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: url(../Img/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+.navbar {
+    font-family: 'Averia Serif Libre', cursive;
+    font-variant: small-caps;
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    /* border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%; */
+}
+
+.nav-icons i {
+    font-size: 1.1rem;
+    color: #146095 !important;
+}
+
+
+@keyframes navber {
+    0% {
+        background-image: linear-gradient(to right top, #ccd3dd, #63e9f5, #bed038, #58e158);
+    }
+
+    25% {
+        background-image: linear-gradient(to right top, #63e9f5, #bed038, #58e158, #ccd3dd);
+    }
+
+    50% {
+        background-image: linear-gradient(to right top, #bed038, #58e158, #ccd3dd, #63e9f5);
+    }
+
+    75% {
+        background-image: linear-gradient(to right top, #58e158, #ccd3dd, #63e9f5, #bed038);
+    }
+
+    100% {
+        background-image: linear-gradient(to right top, #ccd3dd, #63e9f5, #bed038, #58e158, );
+
+    }
+
+}
+
+
+
+.navbar-second {
+    box-shadow: 0px 1px 5px 1px #2525256d;
+    background: linear-gradient(90deg, rgb(2 47 80) 0%, rgb(36 151 209) 50%, rgb(249 162 22) 100%);
+    /* animation: navber 0.85s 1s infinite; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar img {
+    height: 38px;
+    width: 38px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar form span {
+    background: #146095;
+}
+
+
+.header-content {
+    padding: 90px 0px;
+}
+
+.header-content h1 {
+    font-size: 2.82rem !important;
+    text-shadow: 1px 1px 1px black;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.header-content p {
+    font-size: 1.2rem !important;
+    color: rgb(50, 50, 50);
+
+}
+
+
+
+/* responsive navbar */
+
+.phone-navigation {
+    background: linear-gradient(90deg, rgb(2 47 80) 0%, rgb(36 151 209) 50%, rgb(249 162 22) 100%);
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    /* height: 65px; */
+    display: none;
+    z-index: 999;
+    border-radius: 10px !important;
+}
+
+
+.phone-navigation i {
+    font-size: 1.3rem !important;
+    border-radius: 10px !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    /* background: linear-gradient(to bottom, #e8cf84cc 0, rgba(239, 246, 175, 0.801) 100%); */
+    background: #161717;
+    color: rgb(255, 255, 255) !important;
+}
+
+.phone-navigation a div {
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.05rem;
+}
+
+
+
+/* ------------------------------------------- Header section end ----------------------------------------- */
+
+.buttons div a button {
+    border-radius: 50px !important;
+    animation: moving 2s infinite alternate;
+}
+
+@keyframes moving {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+
+    75% {
+        transform: scale(1.09);
+    }
+
+    100% {
+        transform: scale(1.1);
+
+    }
+
+}
+
+/* ------------------------------------------- About section start ---------------------------------------- */
+
+
+.process-section .right-side {
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(243 250 255) 20%, rgb(238 246 251) 50%, rgb(255 255 255) 100%);
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.808);
+ 
+}
+
+
+.process-section .right-side h2 {
+
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.765) !important;
+    text-shadow: 1px 0px 2px rgba(4, 4, 4, 0.409);
+}
+
+.process-section .right-side p {
+    text-align: justify;
+    font-size: 1.12rem;
+    color: rgb(97, 96, 96) !important;
+
+}
+
+.process-section .right-side ul strong {
+    font-size: 1.3rem;
+    color: #145094 !important;
+}
+
+.process-section .right-side ul p {
+    font-size: 1rem;
+}
+
+
+
+/* all para text  justify  */
+
+.header-content p,
+.process-section p,
+.service-section p,
+.services p,
+.servicess-second .service-list-item p {
+    text-align: justify !important;
+
+}
+
+
+/* service section */
+
+
+.mycard {
+    background: #1a7298;
+    margin: 10% 0;
+    height: 450px;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0px 15px #9ad4ff, inset 0px -15px rgb(225 232 255), 0 45px rgb(255 200 124);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.service-content .mycard:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.mycard .icons {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 0 rgba(220, 9, 9, 0.1),
+        inset 0px -8px 0 rgb(255, 255, 255);
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.mycard .icons::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 15px -15px 0 15px #ffffff;
+    background: transparent;
+    border-top-right-radius: 50px;
+}
+
+.mycard .icons::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: -15px -15px 0 15px #ffffff;
+    background: transparent;
+    border-top-left-radius: 50px;
+}
+
+.mycard .icons img {
+    position: relative;
+    z-index: 555 !important;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+}
+
+.service-content .mycard:hover .icons img {
+
+    /* transform: scale(1.2); */
+    transform: rotate(360deg);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.mycard .text {
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    padding-top: 145px;
+    text-align: center;
+}
+
+
+.service-content h1 {
+    font-size: 1.5rem !important;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.service-content p {
+    font-family: serif;
+    font-size: 0.98rem;
+    text-align: justify;
+}
+
+
+/*------------------- banner one -------------------*/
+
+
+
+.banner1 {
+    background: url(../Img/banner1-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0px;
+}
+
+.banner1 .card {
+    border-radius: 25px;
+}
+
+.banner1 .card:hover {
+    background: #8fdafff1;
+    transform: scale(1.04);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.banner1 .card .image {
+    height: 100px;
+    width: 100px;
+}
+
+.banner1 .card h3 {
+    font-family: serif;
+    color: rgb(22 93 146);
+}
+
+
+
+/*-------------------- why choose --------------------*/
+
+
+/* .why-choose {
+    background: url(../Img/partner-bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.why-choose .card {
+    background: linear-gradient(179deg, rgb(82 231 255), rgb(252 255 252), rgb(218 226 255));
+    overflow: hidden;
+    box-shadow: 3px 0px rgb(55 102 255), 8px 0px 3px rgb(20 227 87);
+    border-radius: 80px 0px;
+    height: 100%;
+}
+
+
+.why-choose .card:hover {
+    transform: translateY(-10px);
+    border-radius: 0px 80px;
+    box-shadow: 3px 3px rgb(55 102 255), 8px 5px 3px rgb(20 227 87);
+
+    cursor: pointer;
+    transition: all 0.3s;
+    background: linear-gradient(179deg, rgb(82 231 255), rgb(252 255 252), rgb(218 226 255));
+
+
+}
+
+.why-choose .card .image {
+    height: 120px;
+    width: 120px;
+    background: #f9f7f4;
+    border-radius: 50px !important;
+    overflow: hidden;
+    padding: 3px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+.why-choose .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.why-choose .card h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: rgb(57 124 189);
+}
+
+.why-choose .card p {
+    color: rgb(55, 55, 55);
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+
+
+/* ------------------------------------------- contact us section start ---------------------------------------- */
+.contact-us {
+
+    background: url(../Img/contact-b.jpg) no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.contact-us .form-control {
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+    color: white;
+}
+
+.contact-us .form-control::placeholder {
+    color: rgb(237, 237, 237);
+}
+
+
+
+
+
+/*---------------- ----------------gallery sectoin----------------------- */
+
+
+.gallery-section .card {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .card img {
+    object-fit: cover;
+}
+
+.gallery-section .card-content {
+    opacity: 0;
+    background: #000c307a;
+    transform: scale(0);
+}
+
+.gallery-section .card:hover .card-content {
+    opacity: 1;
+    transform: scale(1);
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* ------------------------------------------- testimonial section start ---------------------------------------- */
+
+.testimonial-section {
+    background: url(../Img/testimonial-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.testimonial-section .carousel-cell {
+    width: 520px;
+    margin: 10px;
+}
+
+.testimonial-section .carousel-cell::before {
+    display: block;
+}
+
+.flickity-page-dots {
+    display: none;
+}
+
+
+.testimonial-section .card {
+    border-radius: 40px 5px;
+}
+
+.testimonial-section .card:hover {
+    background: linear-gradient(to right, rgb(232, 244, 255), #f3fffe) !important;
+    cursor: pointer;
+}
+
+.testimonial-section .card:hover .card-body>p {
+    color: rgb(28, 23, 23) !important;
+}
+
+.testimonial-section .card img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-section .card:hover img {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    padding: 0px !important;
+}
+
+
+
+
+
+/* ------------------------------------------- Footer section start ---------------------------------------- */
+
+.footer {
+    background: linear-gradient(90deg, rgb(22 93 146) 0%, rgb(91 173 234) 75%, rgb(23 102 161) 100%);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.footer-list {
+    margin-top: 15% !important;
+}
+
+.path-0 {
+    animation: pathAnim-0 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-0 {
+    0% {
+        d: path("M 0,600 C 0,600 0,200 0,200 C 93.34928229665073,182.03827751196172 186.69856459330146,164.07655502392345 292,183 C 397.30143540669854,201.92344497607655 514.555023923445,257.73205741626793 621,253 C 727.444976076555,248.26794258373204 823.0813397129186,182.99521531100478 911,180 C 998.9186602870814,177.00478468899522 1079.1196172248806,236.28708133971293 1166,250 C 1252.8803827751194,263.7129186602871 1346.4401913875597,231.85645933014354 1440,200 C 1440,200 1440,600 1440,600 Z");
+    }
+
+    25% {
+        d: path("M 0,600 C 0,600 0,200 0,200 C 96.14354066985646,220.50717703349284 192.28708133971293,241.01435406698567 278,255 C 363.7129186602871,268.9856459330143 438.9952153110049,276.4497607655502 549,265 C 659.0047846889951,253.55023923444978 803.7320574162679,223.1866028708134 899,196 C 994.2679425837321,168.8133971291866 1040.0765550239234,144.80382775119617 1122,146 C 1203.9234449760766,147.19617224880383 1321.9617224880383,173.5980861244019 1440,200 C 1440,200 1440,600 1440,600 Z");
+    }
+
+    50% {
+        d: path("M 0,600 C 0,600 0,200 0,200 C 119.09090909090907,179.26315789473685 238.18181818181813,158.5263157894737 323,163 C 407.81818181818187,167.4736842105263 458.3636363636364,197.15789473684214 540,211 C 621.6363636363636,224.84210526315786 734.3636363636365,222.8421052631579 855,231 C 975.6363636363635,239.1578947368421 1104.1818181818182,257.47368421052636 1203,254 C 1301.8181818181818,250.52631578947367 1370.909090909091,225.26315789473682 1440,200 C 1440,200 1440,600 1440,600 Z");
+    }
+
+    75% {
+        d: path("M 0,600 C 0,600 0,200 0,200 C 90.84210526315792,171.93301435406698 181.68421052631584,143.866028708134 261,151 C 340.31578947368416,158.133971291866 408.1052631578947,200.4688995215311 526,195 C 643.8947368421053,189.5311004784689 811.8947368421052,136.2583732057416 909,144 C 1006.1052631578948,151.7416267942584 1032.3157894736842,220.4976076555024 1109,240 C 1185.6842105263158,259.5023923444976 1312.842105263158,229.7511961722488 1440,200 C 1440,200 1440,600 1440,600 Z");
+    }
+
+    100% {
+        d: path("M 0,600 C 0,600 0,200 0,200 C 93.34928229665073,182.03827751196172 186.69856459330146,164.07655502392345 292,183 C 397.30143540669854,201.92344497607655 514.555023923445,257.73205741626793 621,253 C 727.444976076555,248.26794258373204 823.0813397129186,182.99521531100478 911,180 C 998.9186602870814,177.00478468899522 1079.1196172248806,236.28708133971293 1166,250 C 1252.8803827751194,263.7129186602871 1346.4401913875597,231.85645933014354 1440,200 C 1440,200 1440,600 1440,600 Z");
+    }
+}
+
+.path-1 {
+    animation: pathAnim-1 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-1 {
+    0% {
+        d: path("M 0,600 C 0,600 0,400 0,400 C 110.4976076555024,390.5837320574162 220.9952153110048,381.1674641148325 325,384 C 429.0047846889952,386.8325358851675 526.5167464114832,401.91387559808607 598,391 C 669.4832535885168,380.08612440191393 714.9377990430623,343.177033492823 812,362 C 909.0622009569377,380.822966507177 1057.732057416268,455.377990430622 1171,471 C 1284.267942583732,486.622009569378 1362.1339712918661,443.311004784689 1440,400 C 1440,400 1440,600 1440,600 Z");
+    }
+
+    25% {
+        d: path("M 0,600 C 0,600 0,400 0,400 C 95.70334928229664,414.3157894736842 191.40669856459328,428.63157894736844 295,418 C 398.5933014354067,407.36842105263156 510.07655502392333,371.78947368421046 616,356 C 721.9234449760767,340.21052631578954 822.287081339713,344.21052631578954 907,352 C 991.712918660287,359.78947368421046 1060.7751196172248,371.36842105263156 1147,380 C 1233.2248803827752,388.63157894736844 1336.6124401913876,394.3157894736842 1440,400 C 1440,400 1440,600 1440,600 Z");
+    }
+
+    50% {
+        d: path("M 0,600 C 0,600 0,400 0,400 C 103.67464114832538,367.5023923444976 207.34928229665076,335.0047846889952 303,355 C 398.65071770334924,374.9952153110048 486.27751196172244,447.4832535885168 593,445 C 699.7224880382776,442.5167464114832 825.5406698564594,365.0622009569378 912,352 C 998.4593301435406,338.9377990430622 1045.55980861244,390.267942583732 1127,409 C 1208.44019138756,427.732057416268 1324.22009569378,413.86602870813397 1440,400 C 1440,400 1440,600 1440,600 Z");
+    }
+
+    75% {
+        d: path("M 0,600 C 0,600 0,400 0,400 C 104.91866028708134,432.1531100478469 209.83732057416267,464.3062200956938 317,442 C 424.1626794258373,419.6937799043062 533.5693779904307,342.9282296650717 629,352 C 724.4306220095693,361.0717703349283 805.8851674641148,455.9808612440192 903,463 C 1000.1148325358852,470.0191387559808 1112.88995215311,389.1483253588517 1205,364 C 1297.11004784689,338.8516746411483 1368.5550239234449,369.42583732057415 1440,400 C 1440,400 1440,600 1440,600 Z");
+    }
+
+    100% {
+        d: path("M 0,600 C 0,600 0,400 0,400 C 110.4976076555024,390.5837320574162 220.9952153110048,381.1674641148325 325,384 C 429.0047846889952,386.8325358851675 526.5167464114832,401.91387559808607 598,391 C 669.4832535885168,380.08612440191393 714.9377990430623,343.177033492823 812,362 C 909.0622009569377,380.822966507177 1057.732057416268,455.377990430622 1171,471 C 1284.267942583732,486.622009569378 1362.1339712918661,443.311004784689 1440,400 C 1440,400 1440,600 1440,600 Z");
+    }
+}

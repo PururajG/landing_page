@@ -1,0 +1,234 @@
+/*------------------- css for Extra large devices (large desktops, 1200px and up)-------------------------------------*/
+
+@media only screen and (max-width:1200px) {
+    /*--------------------------- header contents ---------------------------*/
+
+    /* service */
+    .mycard {
+        height: 525px;
+    }
+
+    .footer-list {
+        margin-top: 10% !important;
+    }
+
+    .footer {
+        display: none;
+    }
+
+
+    .footer-mobile {
+        display: block;
+    }
+
+
+
+}
+
+
+/*--------------- -css for Large devices (desktops, 992px and up) --------------------------------*/
+@media only screen and (max-width:992px) {
+
+    /* ----------- Header section start here--------------------*/
+    .header {
+        /* background: url(../Img/wave\ mobile.jpg) no-repeat; */
+        background: url(../Img/home-bgg.png) no-repeat;
+        /* background-position: center; */
+        background-attachment: scroll;
+        object-fit: cover;
+
+    }
+
+    .header-content {
+        padding: 50px 0px;
+    }
+
+
+    .header-content h1 {
+        font-size: 2.7rem !important;
+        text-shadow: 2px 2px 5px black;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        color: white !important;
+    }
+
+    .header-content p {
+        font-size: 1.2rem !important;
+        color: rgb(240, 240, 240);
+        text-shadow: 1px 1px 5px black;
+
+    }
+
+
+    .navigation .navbar-first {
+        background: linear-gradient(90deg, rgb(2 47 80) 0%, rgb(36 151 209) 50%, rgb(249 162 22) 100%);
+
+    }
+
+    .navigation .navbar-brand,
+    .navigation .navbar-brand span {
+        color: white !important;
+        font-weight: bold;
+        font-size: 1.4rem !important;
+    }
+
+    .navigation .navbar-brand img {
+        background: #fff;
+        padding: 3px;
+        border-radius: 50%;
+
+    }
+
+    .navbar-second {
+        display: none;
+    }
+
+    /* responsive phone navbar */
+
+
+    .navigation .navbar-toggler {
+        display: none;
+    }
+
+    .navigation .Navigation-list {
+        display: none;
+
+    }
+
+    .phone-navigation {
+        display: block !important;
+    }
+
+    .phone-navigation i {
+        font-size: 1.2rem !important;
+        border-radius: 7px !important;
+        padding: 7px 10px;
+    }
+
+    .phone-navigation a div {
+        font-size: 0.95rem;
+    }
+
+
+    /* service */
+    .mycard {
+        height: 428px;
+    }
+
+    .footer {
+        margin-bottom: 4rem;
+    }
+
+
+    .footer-bottom {
+        margin-bottom: 3.5rem;
+    }
+
+
+}
+
+
+/*--------------- -css for Medium devices (tablets, 768px and up) --------------------------------*/
+
+@media only screen and (max-width:768px) {
+    /*--------------------------- header contents ---------------------------*/
+
+    .header-content h1 {
+        font-size: 2rem !important;
+        letter-spacing: 1px;
+    }
+
+    .header-content p {
+        font-size: 1.099rem !important;
+
+    }
+
+    /* process section */
+
+    .process-section .right-side h2 {
+
+        font-size: 1.2rem;
+        letter-spacing: 0px;
+    }
+
+    .process-section .right-side p {
+        font-size: 1rem;
+    }
+
+    .process-section .right-side ul strong {
+        font-size: 1.1rem;
+
+    }
+
+    .process-section .right-side ul img {
+        width: 3rem;
+    }
+
+
+
+    /* service */
+    .mycard {
+        height: 528px;
+    }
+
+    /* ------------------------------------------- testimonial section start ---------------------------------------- */
+
+    .testimonial-section .carousel-cell {
+        width: 400px;
+        margin: 5px;
+    }
+}
+
+
+/*--------------- -css for  Small devices (landscape phones, 576px and up) --------------------------------*/
+@media only screen and (max-width:576px) {
+
+
+    .header-content h1 {
+        font-size: 1.9rem !important;
+    }
+
+    .header-content p {
+        font-size: 1rem !important;
+
+    }
+
+
+    /* service */
+    .mycard {
+        height: 430px;
+    }
+
+
+    /* -- gallery section-- */
+    .gallery-section .card img {
+        height: 210px;
+
+    }
+
+    /* ------------------------------------------- testimonial section start ---------------------------------------- */
+
+    .testimonial-section .carousel-cell {
+        width: 340px;
+
+    }
+
+}
+
+
+
+/*--------------- -css for more Small devices ( 450px and up) --------------------------------*/
+
+/* ----------- Header section start here--------------------*/
+@media only screen and (max-width:450px) {}
+
+
+/*--------------- -css for more Small devices (landscape phones, 390px and up) --------------------------------*/
+
+
+/* ----------- Header section start here--------------------*/
+@media only screen and (max-width:390px) {
+
+    /* ------------------------------------------- download section start ----------------------------------------- */
+
+}

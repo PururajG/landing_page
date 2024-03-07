@@ -4,16 +4,18 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-
 }
 
+html,
 body {
     font-family: serif;
     overflow-x: hidden;
 }
 
 :root {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
+    scroll-snap-type: Y mandatory;
+    /* scroll-snap-type: Y proximity; */
 }
 
 /*---------------------- custome classes made by me ----------------------*/
@@ -24,7 +26,6 @@ body {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
-
 }
 
 
@@ -35,6 +36,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     object-fit: cover;
+    scroll-snap-align: start ;
 }
 
 .navbar {
@@ -80,8 +82,6 @@ body {
 
 }
 
-
-
 .navbar-second {
     box-shadow: 0px 1px 5px 1px #2525256d;
     background: linear-gradient(90deg, rgb(2 47 80) 0%, rgb(36 151 209) 50%, rgb(249 162 22) 100%);
@@ -122,7 +122,6 @@ body {
 }
 
 
-
 /* responsive navbar */
 
 .phone-navigation {
@@ -152,7 +151,6 @@ body {
     color: rgb(255, 255, 255) !important;
     font-size: 1.05rem;
 }
-
 
 
 /* ------------------------------------------- Header section end ----------------------------------------- */
@@ -188,17 +186,14 @@ body {
 
 /* ------------------------------------------- About section start ---------------------------------------- */
 
-
 .process-section .right-side {
     border-radius: 5px;
     background: linear-gradient(45deg, rgb(243 250 255) 20%, rgb(238 246 251) 50%, rgb(255 255 255) 100%);
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.808);
- 
 }
 
 
 .process-section .right-side h2 {
-
     font-size: 1.5rem;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.765) !important;
@@ -209,7 +204,6 @@ body {
     text-align: justify;
     font-size: 1.12rem;
     color: rgb(97, 96, 96) !important;
-
 }
 
 .process-section .right-side ul strong {
@@ -222,9 +216,7 @@ body {
 }
 
 
-
 /* all para text  justify  */
-
 .header-content p,
 .process-section p,
 .service-section p,
@@ -236,8 +228,6 @@ body {
 
 
 /* service section */
-
-
 .mycard {
     background: #1a7298;
     margin: 10% 0;
@@ -303,7 +293,6 @@ body {
 }
 
 .service-content .mycard:hover .icons img {
-
     /* transform: scale(1.2); */
     transform: rotate(360deg);
     cursor: pointer;
@@ -317,7 +306,6 @@ body {
     padding-top: 145px;
     text-align: center;
 }
-
 
 .service-content h1 {
     font-size: 1.5rem !important;
@@ -333,10 +321,7 @@ body {
     text-align: justify;
 }
 
-
 /*------------------- banner one -------------------*/
-
-
 
 .banner1 {
     background: url(../Img/banner1-bg.png) no-repeat;
@@ -366,10 +351,7 @@ body {
     color: rgb(22 93 146);
 }
 
-
-
 /*-------------------- why choose --------------------*/
-
 
 /* .why-choose {
     background: url(../Img/partner-bg.jpg)no-repeat;
@@ -385,17 +367,13 @@ body {
     height: 100%;
 }
 
-
 .why-choose .card:hover {
     transform: translateY(-10px);
     border-radius: 0px 80px;
     box-shadow: 3px 3px rgb(55 102 255), 8px 5px 3px rgb(20 227 87);
-
     cursor: pointer;
     transition: all 0.3s;
     background: linear-gradient(179deg, rgb(82 231 255), rgb(252 255 252), rgb(218 226 255));
-
-
 }
 
 .why-choose .card .image {
@@ -407,7 +385,6 @@ body {
     padding: 3px;
     margin: 10px auto;
     border-radius: 5px;
-
 }
 
 .why-choose .card img {
@@ -434,7 +411,6 @@ body {
 
 /* ------------------------------------------- contact us section start ---------------------------------------- */
 .contact-us {
-
     background: url(../Img/contact-b.jpg) no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -450,12 +426,7 @@ body {
     color: rgb(237, 237, 237);
 }
 
-
-
-
-
 /*---------------- ----------------gallery sectoin----------------------- */
-
 
 .gallery-section .card {
     overflow: hidden;
@@ -475,7 +446,6 @@ body {
 .gallery-section .card:hover .card-content {
     opacity: 1;
     transform: scale(1);
-
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -487,8 +457,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
-
 
 .testimonial-section .carousel-cell {
     width: 520px;
@@ -502,7 +470,6 @@ body {
 .flickity-page-dots {
     display: none;
 }
-
 
 .testimonial-section .card {
     border-radius: 40px 5px;
@@ -527,9 +494,6 @@ body {
     transition: all 0.4s;
     padding: 0px !important;
 }
-
-
-
 
 
 /* ------------------------------------------- Footer section start ---------------------------------------- */
